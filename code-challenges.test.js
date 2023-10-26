@@ -50,13 +50,13 @@ describe('divisiblebByThree', () => {
 
 // b) Create the function that makes the test pass.
 
-// const divisiblebByThree = (object) => {
-//         if (object.number % 3 ===0){
-//             return `${object.number} is divisible by three`
-//         }else{
-//             return `${object.number} is not divisible by three`
-//         }
-//     }
+const divisiblebByThree = (object) => {
+        if (object.number % 3 ===0){
+            return `${object.number} is divisible by three`
+        }else{
+            return `${object.number} is not divisible by three`
+        }
+    }
 
     // refferencing value is dot Notification. leared this under objects
 
